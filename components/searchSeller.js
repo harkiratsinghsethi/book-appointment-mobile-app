@@ -100,7 +100,7 @@ export default class searchSeller extends Component {
         const {navigate} = this.props.navigation;
 
         return (<View style={styles.container}>
-            <LinearGradient colors={['#abb9d6','#abb9d6','#abb9d6']} style={{flex: 1}}>
+            <LinearGradient colors={['#abb9d6', '#abb9d6', '#abb9d6']} style={{flex: 1}}>
                 {this.state.loading ? <Text></Text> : <Text>Loading...</Text>}
                 <ScrollView>
 
